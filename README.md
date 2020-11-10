@@ -13,19 +13,6 @@ Notebooks to refer to:
 - For EDA and csv compilation refer to: ```eda_and_cleaning.ipynb```
 - For the model process along with visualizations refer to: ```modeling_visualizations.ipynb```
 
-#### Model Process
----
-- Class Balance: very balanced to start 
-
-![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
-
-- A passive aggressive classifier was the main model used. To be able to perform analysis on text data, first it must be converted to number vectors. There are multiple NLP techniques one can use i.e. word2vec, bag of words, etc., but for this project TF-IDF vectorizing was used. 
-
-- Accuracy was used to balance both false positives and negatives. I did not want to tell a person their article was Fake when in reality it was true i.e. if a user enters a url link of an article known to be true (ground truth). However, I also did not want to tell someone their article was 'Fake' when it was actually real! F1 was not used because of the natural class balance. 
-
-
-![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
-
 #### Word count bar graphs 
 - Fake news and Real news have similiar word usage however some differences are shown e.g., true news' most used word was 'said' which can imply that those news outlets use direct quotes of the people they report about. In constrast fake news cannot rely on direct quotes often times and instead paraphrase or use other inflammatory words to distract the reader like 'war'. 
 ![word counts bar graph](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
@@ -39,6 +26,19 @@ Notebooks to refer to:
 - Fake news wordcloud
 
 ![fake wordcloud](https://user-images.githubusercontent.com/44031998/98706503-e87e2580-234c-11eb-840e-60f9570ccc64.png)
+
+#### Model Process
+---
+- Class Balance: very balanced to start 
+
+![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
+
+- A passive aggressive classifier was the main model used. To be able to perform analysis on text data, first it must be converted to number vectors. There are multiple NLP techniques one can use i.e. word2vec, bag of words, etc., but for this project TF-IDF vectorizing was used. 
+
+- Accuracy was used to balance both false positives and negatives. I did not want to tell a person their article was Fake when in reality it was true i.e. if a user enters a url link of an article known to be true (ground truth). However, I also did not want to tell someone their article was 'Fake' when it was actually real! F1 was not used because of the natural class balance. 
+
+
+![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
 
 #### Flask App
 - The model was then pickled and used in ```app.py``` to develop a front end accessible locally from the terminal. 
