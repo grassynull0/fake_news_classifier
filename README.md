@@ -40,6 +40,19 @@ Notebooks to refer to:
 
 ![fake wordcloud](https://user-images.githubusercontent.com/44031998/98706503-e87e2580-234c-11eb-840e-60f9570ccc64.png)
 
+#### Flask App
+- The model was then pickled and used in ```app.py``` to develop a front end accessible locally from the terminal. 
+- Newspaper3k was used to parse user URL input and apply the same NLP strategies used in the modeling process. 
+- Basic HTML with a google stylesheet enabled the user interface. 
+
+#### Further Recommendations
+- More data is needed to better understand what makes Fake News fake. Also, the majority of this data was taken around the 2016 election therefore making it very biased towards that content. 
+- Being that articles come out faster than we can count, a continuous addition to the model would help identify new trends/fads/hashtags/etc.
+- Broaden the topics - most of the data was on political issues. 
+- Use Hadoop to deploy the Flask front end after some CSS styling
+- Build a recommendation system on top of the front end to recommend the user an article deemed ‘real’ based on the article they submitted
+
+
 
 
 ## Links 
