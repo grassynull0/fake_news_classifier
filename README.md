@@ -21,6 +21,8 @@ Notebooks to refer to:
 
 
 - Accuracy was used to balance both false positives and negatives. 
+
+
 ![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
 
 #### Word count bar graphs 
