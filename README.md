@@ -20,7 +20,7 @@ Notebooks to refer to:
 ![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
 
 
-- Accuracy was used to balance both false positives and negatives. 
+- Accuracy was used to balance both false positives and negatives. I did not want to tell a person their article was Fake when in reality it was true i.e. if a user enters a url link of an article known to be true (ground truth). However, I also did not want to tell someone their article was 'Fake' when it was actually real! F1 was not used because of the natural class balance. 
 
 
 ![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
