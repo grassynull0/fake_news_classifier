@@ -16,8 +16,8 @@ Notebooks to refer to:
 #### Model Process
 ---
 - Class Balance: very balanced to start 
+
 ![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
-- 
 
 
 ![image](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
