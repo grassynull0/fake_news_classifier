@@ -19,6 +19,7 @@ Notebooks to refer to:
 
 ![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
 
+- A passive aggressive classifier was the main model used. To be able to perform analysis on text data, first it must be converted to number vectors. There are multiple NLP techniques one can use i.e. word2vec, bag of words, etc., but for this project TF-IDF vectorizing was used. 
 
 - Accuracy was used to balance both false positives and negatives. I did not want to tell a person their article was Fake when in reality it was true i.e. if a user enters a url link of an article known to be true (ground truth). However, I also did not want to tell someone their article was 'Fake' when it was actually real! F1 was not used because of the natural class balance. 
 
@@ -29,7 +30,8 @@ Notebooks to refer to:
 - Fake news and Real news have similiar word usage however some differences are shown e.g., true news' most used word was 'said' which can imply that those news outlets use direct quotes of the people they report about. In constrast fake news cannot rely on direct quotes often times and instead paraphrase or use other inflammatory words to distract the reader like 'war'. 
 ![word counts bar graph](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
 
-
+#### Word Clouds
+- Interesting to note here that both 'Real' and 'Fake' news articles use similiar words like 'trump' or 'clinton'. This presents further problems with this model as it is not specific enough. This was aided by using 1 and 2 word combinations in the ```n_gram``` parameter in the TF-IDF vectorizing stage. 
 - Real news wordcloud
 
 ![real worldcloud](https://user-images.githubusercontent.com/44031998/98706520-ecaa4300-234c-11eb-9c28-3331b222f5cf.png)
