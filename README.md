@@ -20,11 +20,10 @@ Notebooks to refer to:
 ![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
 
 
-![image](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
 - Accuracy was used to balance both false positives and negatives. 
 ![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
 
-- Word count bar graphs 
+#### Word count bar graphs 
 - Fake news and Real news have similiar word usage however some differences are shown e.g., true news' most used word was 'said' which can imply that those news outlets use direct quotes of the people they report about. In constrast fake news cannot rely on direct quotes often times and instead paraphrase or use other inflammatory words to distract the reader like 'war'. 
 ![word counts bar graph](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
 
