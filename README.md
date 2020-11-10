@@ -11,28 +11,31 @@
 
 Notebooks to refer to:
 - For EDA and csv compilation refer to: ```eda_and_cleaning.ipynb```
-- For the model process along with visualizations refer to: ```NLP_modeling.ipynb```
+- For the model process along with visualizations refer to: ```modeling_visualizations.ipynb```
 
 #### Model Process
 ---
-- The best model was a passive aggressive classifier that had a 97% accuracy.
-- Accuracy was used to achieve the best overall performance of the model due to the even class balance that the data came with. 
+- Class Balance: very balanced to start 
+![image](https://user-images.githubusercontent.com/44031998/98706497-e74cf880-234c-11eb-87dc-701a061d4934.png)
 - 
-![model_confusion_matrix](https://user-images.githubusercontent.com/44031998/98063901-1203f200-1e1f-11eb-916f-f44b447174b2.png)
 
-#### Word count bar graphs 
-- Fake news and Real news have similiar word usage however some differences are shown e.g., true news' most used word was 'said' which implies that those news outlets use direct quotes of the people they report about. In constrast fake news cannot rely on direct quotes often times and instead paraphrase or use other inflammatory words to distract the reader. 
-![word_count_bar_graphs](https://user-images.githubusercontent.com/44031998/98063728-b3d70f00-1e1e-11eb-8235-44ffce4a5180.png)
 
+![image](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
+- Accuracy was used to balance both false positives and negatives. 
+![confusion matrix ](https://user-images.githubusercontent.com/44031998/98706514-eae07f80-234c-11eb-8113-b3f5c485a2b2.png)
+
+- Word count bar graphs 
+- Fake news and Real news have similiar word usage however some differences are shown e.g., true news' most used word was 'said' which can imply that those news outlets use direct quotes of the people they report about. In constrast fake news cannot rely on direct quotes often times and instead paraphrase or use other inflammatory words to distract the reader like 'war'. 
+![word counts bar graph](https://user-images.githubusercontent.com/44031998/98706525-ee740680-234c-11eb-8f89-3013c87ca86a.png)
 
 
 - Real news wordcloud
 
-![real_wordcloud](https://user-images.githubusercontent.com/44031998/98063782-d23d0a80-1e1e-11eb-9859-5436b2a1113f.png)
+![real worldcloud](https://user-images.githubusercontent.com/44031998/98706520-ecaa4300-234c-11eb-9c28-3331b222f5cf.png)
 
 - Fake news wordcloud
 
-![fake_wordcloud](https://user-images.githubusercontent.com/44031998/98063821-ebde5200-1e1e-11eb-87f3-e732f8938747.png)
+![fake wordcloud](https://user-images.githubusercontent.com/44031998/98706503-e87e2580-234c-11eb-840e-60f9570ccc64.png)
 
 
 
